@@ -96,11 +96,11 @@ let g:vdebug_options_defaults = {
 \    "background_listener" : 1,
 \    "auto_start" : 1,
 \    "window_commands" : {
-\        "DebuggerWatch" : "vertical belowright new",
+\        "DebuggerWatch" : "below new",
 \        "DebuggerStack" : "belowright new",
-\        "DebuggerStatus" : "belowright new"
+\        "DebuggerStatus" : "vertical leftabove new"
 \    },
-\    "window_arrangement" : ["DebuggerWatch", "DebuggerStack", "DebuggerStatus"]
+\    "window_arrangement" : ["DebuggerWatch", "DebuggerStatus", "DebuggerStack"]
 \}
 
 " Different symbols for non unicode Vims
